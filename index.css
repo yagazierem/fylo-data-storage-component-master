@@ -49,6 +49,7 @@ body {
     padding: 40px;
 }
 .storage-bar {
+    display: grid;
     
 
 }
@@ -62,7 +63,7 @@ body {
     height: 15px;
     width: 300px;
     border-radius: 7px;
-    background-color:  var(--color-primary-two);
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%)); 
     
 }
 .dot {
@@ -70,4 +71,14 @@ body {
     width: 10px;
     background-color: white;
     border-radius: 50%;
+    margin-left: 290px;
+
+}
+span {
+    color: white;
+    align-content: space-between;
+}
+.remainder {
+    height: 40px;
+    width: 50px;
 }
